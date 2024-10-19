@@ -1,4 +1,5 @@
-flask
+streamlit
 transformers
-gunicorn
+diffusers
+pillow
 torch

@@ -4,7 +4,7 @@ from PIL import Image
 import torch
 
 # Load the fine-tuned or pre-trained Stable Diffusion model
-pipe = StableDiffusionPipeline.from_pretrained("CompVis/stable-diffusion-v1-4", torch_dtype=torch.float16).to("cuda")
+pipe = StableDiffusionPipeline.from_pretrained("CompVis/stable-diffusion-v1-4", torch_dtype=torch.float16).to("cpu")
 
 # Streamlit interface
 st.title("Interior Design Concept Generator")
